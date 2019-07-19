@@ -2,9 +2,9 @@
 
 day by day logging.
 schema:
-prev night: state expected value of next day.
-actual day: log work
-end of day: reflect
+prev night: (goals) state expected value of next day.
+actual day: (actions) log of work.
+end of day: (reward) reflect
 
 date of header is the day, not when the E(X) was written
 
@@ -13,3 +13,9 @@ date of header is the day, not when the E(X) was written
 	1.  get anode working on mnist w my own code 
 	2. working mnist for recursive conv1d 2d
 		a. add cuda
+
+  - A:
+	1. ANODE convnet trains on mnist, light curves
+
+  - R:
+	1. I am okay with the work I did however, I should have also fixed the non classification anode model to train on flux light curves, which would make use of the time dimension in NODEs.
