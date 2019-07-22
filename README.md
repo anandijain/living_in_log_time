@@ -10,8 +10,8 @@ date of header is the day, not when the E(X) was written
 
 ## GLOBAL TODOS:
   - try anode and node autoencoder to reduce dimensionality for anode classifier for lsst
-
-
+  - compare model accuracy/ lsst submissions with/without flux_err, passband, and detected
+  - add prediction to file logging
 
 example:
 
