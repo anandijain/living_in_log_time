@@ -8,6 +8,13 @@ end of day: (reward) reflect
 
 date of header is the day, not when the E(X) was written
 
+## GLOBAL TODOS:
+  - try anode and node autoencoder to reduce dimensionality for anode classifier for lsst
+
+
+
+example:
+
 ### 7 19 19
   - E(X) =  \
 	1.  get anode working on mnist w my own code 
