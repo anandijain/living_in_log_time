@@ -1,2 +1,6 @@
 #!/bin/bash
-cp ./template.md "$(date +%m_%d_%y).md"
+NOW="$(date +%m_%d_%y).md"
+
+cp ./template.md $NOW
+vim $NOW
+
